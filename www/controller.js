@@ -74,19 +74,27 @@ $(document).ready(function () {
     // }
 
 
-    // // Hide Start Page and display blob
-    // eel.expose(hideStart)
-    // function hideStart() {
+    // Hide Start Page and display blob
+    eel.expose(hideStart)
+    function hideStart() {
 
-    //     $("#Start").attr("hidden", true);
+        $("#Start").attr("hidden", true);
 
-    //     setTimeout(function () {
-    //         $("#Oval").addClass("animate__animated animate__zoomIn");
+        setTimeout(function () {
+            $("#Oval").addClass("animate__animated animate__zoomIn");
 
-    //     }, 1000)
-    //     setTimeout(function () {
-    //         $("#Oval").attr("hidden", false);
-    //     }, 1000)
+        }, 2000)
+        setTimeout(function () {
+            $("#Oval").attr("hidden", false);
+        }, 2000)
+    }
+
+    // eel.expose(hideFaceAuthSuccess)
+    // function hideFaceAuthSuccess() {
+
+    //     $("#FaceAuthSuccess").attr("hidden", true);
+    //     $("#HelloGreet").attr("hidden", false);
+
     // }
 
 

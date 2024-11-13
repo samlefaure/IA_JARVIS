@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    // eel.init()()
+    eel.init()()
 
     $('.text').textillate({
         loop: true,
